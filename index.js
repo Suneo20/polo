@@ -524,7 +524,7 @@ sw =`┏━━━━━━━━━━━━━━⬣
 ┃
 ┃Cp : Wa.me/${owner}
 ┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
-
+http://wa.me/6282230397507?text=sewabot
 _Bukan Bot_ *_Wibusoft_*👍🏻`
 sw2 =`${time}`
 but = [
@@ -1067,14 +1067,14 @@ ${bb++}.${simbol} #sound24
 ${bb++}.${simbol} #sound25`
 but = [
 { buttonId: `${prefix}scbot`, buttonText: { displayText: 'SEWA🎟️' }, type: 1 },
-{ buttonId: `${prefix}owner`, buttonText: { displayText: '️𝙊𝙬𝙣𝙚𝙧 𝘽𝙤𝙩🤖️' }, type: 1 },
-{ buttonId: `${prefix}store`, buttonText: { displayText: '️𝙎𝙩𝙤𝙧𝙚 𝙈𝙚𝙣𝙪🛒' }, type: 1 }
+{ buttonId: `${prefix}owner`, buttonText: { displayText: '️OWNER BOT🤖️' }, type: 1 },
+{ buttonId: `${prefix}store`, buttonText: { displayText: '️MENU STORE🛒' }, type: 1 }
 ]
 sendButLoc(from, st, st2, img1, but)
 Lexxy.sendMessage(from, yu, audio, { mimetype: 'audio/mp4', ptt:true })
 break
 case 'scbot':
-reply('SEWA CHAT OWNER')
+reply('SEWA BOT CHAT http://wa.me/6282230397507?text=sewabot')
 break
 case 'runtime':
 uptime = process.uptime();
